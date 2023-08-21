@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/my-aemaacs-site" mode="merge"/>
+    <filter root="/content/my-aemaacs-site" mode="merge"/>
+    <filter root="/content/dam/my-aemaacs-site" mode="merge">
+        <exclude pattern="/content/dam/my-aemaacs-site(/.*)?"/>
+        <include pattern="/content/dam/my-aemaacs-site/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/my-aemaacs-site/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/my-aemaacs-site" mode="merge"/>
+</workspaceFilter>
